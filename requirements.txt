@@ -1,5 +1,12 @@
 numpy
 pandas
+python-dotenv                              # used to read database information from .env file.
+
+# library to read data from MySQL
+
+mysql-connector-python
+pymysql                                     # has inbuilt function that convert directly into dataframe.
+scikit-learn                                # Use for train test split.
 
 # -e .
 

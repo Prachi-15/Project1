@@ -42,7 +42,9 @@ list_of_files = [
 
     # ".github/workflows/.gitkeep",                                 # workflows folder
 
-    f"src/{project_name}/__init__.py",                            # make project follder a package ,used {} so that it become generic.
+    f"src/__init__.py",                                           # Source folder
+
+    f"src/{project_name}/__init__.py",                            # make project folder a package ,used {} so that it become generic.
     f"src/{project_name}/components/__init__.py",                 # components folder make it a package
     f"src/{project_name}/components/data_ingestion.py",           # 1. component: data_ingestion.py
     f"src/{project_name}/components/data_transformation.py",      # 2. data_transformation 
@@ -62,7 +64,7 @@ list_of_files = [
     "app.py",
     "Dockerfile",
     "requirements.txt",
-    "setup.py"
+    "setup.py",
 
 ]
 
